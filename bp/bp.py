@@ -22,8 +22,8 @@
 from tensorflow.examples.tutorials.mnist import input_data
 from mpl_toolkits.mplot3d import Axes3D
 import tensorflow as tf
-import numpy as np
 import re
+import numpy as np
 
 
 class bp_net:
