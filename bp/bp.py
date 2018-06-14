@@ -30,7 +30,7 @@ class bp_net:
     def __init__(self):
         pass
 
-    def init_data(self, batch_size, *targs, threshold=0.001, learning_rate=0.8, glob_step=50000, active_function='relu', out_function='sigmoid', loss_function='mse'):
+    def init_data(self, batch_size, *targs, threshold=0.001,  learning_rate=0.8, glob_step=50000, active_function='relu', out_function='sigmoid', loss_function='mse'):
         self.current_step = 0
         self.glob_step = glob_step
         self.threshold = threshold
